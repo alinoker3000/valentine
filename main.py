@@ -90,7 +90,7 @@ def cross():
     t.goto(50, -30)
     t.up()
     t.tilt(135)
-    error() #if there is no choise
+    error()
 
 
 def error():
@@ -131,8 +131,8 @@ def heSaidNo(x, y):
         t.left(45)
         t.color("white")
         t.up()
-        t.goto(0, 15)
-        t.write("He said «No» :(", move=False, align="center", font=("Courier New", 20, "normal"))
+        t.goto(5, 15)
+        t.write("It's a «No» :(", move=False, align="center", font=("Courier New", 20, "normal"))
         t.up()
         t.goto(0, 200)
 
@@ -170,7 +170,7 @@ def main():
     t.colormode(255)
     iLoveMyBoy(100, 0, 4)
     # move down to make a center heart
-    t.speed(0)
+    t.speed(6)
     t.up()
     t.color("red")
     t.left(90)
