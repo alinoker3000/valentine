@@ -1,6 +1,6 @@
 This animation is made on python using turtle graphic library. To run it you will need to install python from https://www.python.org/downloads/.
 
-Animation starts with a heart spin and then makes a big red heart with the question "Will you be my valentine?" and a checkbox with two answers: "yes" or "no".
+Animation starts with a heart spin (shout out to https://github.com/wgahnagl/valentine) and then makes a big red heart with the question "Will you be my valentine?" and a checkbox with two answers: "yes" or "no".
 
 If they click into "yes" box, it starts an endless heart spam all around the screen. If they, unfortunately, click into "no" box, it writes "Error" on top of the heart. If they make the same mistake again, the text changes to "Please!". And for the third time the heart turns black with text saying "It's a «no»", and than the heart is breaking.
 
